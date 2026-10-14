@@ -1,9 +1,13 @@
 import { useRef } from "react";
-
+import faucet from "../../shared/assets/promo-faucet.jpg"
+import shower from "../../shared/assets/promo-shower.jpg"
+import bath from "../../shared/assets/promo-bath.jpg"
+import toilet from "../../shared/assets/promo-toilet.jpg"
+import sink from "../../shared/assets/promo-sink.jpg"
 
 const products = [
   {
-    image: "/src/shared/assets/promo-faucet.jpg",
+    image: faucet,
     title: "Смеситель Hansgrohe Logis 71070000 для раковины",
     country: "Германия",
     price: "6 050 ₽",
@@ -13,7 +17,7 @@ const products = [
     category: "Смесители",
   },
   {
-    image: "/src/shared/assets/promo-shower.jpg",
+    image: shower,
     title: "Душевая кабина Black&White Galaxy G8800, 80 × 110 см",
     country: "Германия",
     price: "84 000 ₽",
@@ -23,7 +27,7 @@ const products = [
     category: "Душевые системы",
   },
   {
-    image: "/src/shared/assets/promo-bath.jpg",
+    image: bath,
     title: "Ванна акриловая Am.Pm Spirit W72A-160L00W-A2, 160 × 100 см",
     country: "Германия",
     price: "29 990 ₽",
@@ -33,7 +37,7 @@ const products = [
     category: "Ванны",
   },
   {
-    image: "/src/shared/assets/promo-toilet.jpg",
+    image: toilet,
     title: "Унитаз Laguraty 8074 крышка микролифт, с функцией биде",
     country: "Китай",
     price: "32 108 ₽",
@@ -43,7 +47,7 @@ const products = [
     category: "Унитазы",
   },
   {
-    image: "/src/shared/assets/promo-sink.jpg",
+    image: sink,
     title: "Раковина Laufen Palace 120 см",
     country: "Швейцария",
     price: "53 458 ₽",
