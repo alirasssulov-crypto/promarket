@@ -1,6 +1,6 @@
 
 const brands = [
-  { name: "hansgrohe", image: "" },
+  { name: "hansgrohe", image: "/src/shared/assets/brand-geberit.png" },
   { name: "GROHE", image: "/src/shared/assets/brand-geberit.png" },
   { name: "STWORKI", image: "/src/shared/assets/brand-stworki.png" },
   { name: "AM.PM", image: "/src/shared/assets/brand-ampm.png" },
