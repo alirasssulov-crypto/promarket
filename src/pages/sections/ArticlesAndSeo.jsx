@@ -1,25 +1,32 @@
+import accessories from "../../shared/assets/article-bath-accessories.png"
+import hot from "../../shared/assets/article-hot-water.png"
+import toilet from "../../shared/assets/article-toilet-condensation.png"
+import sealant from "../../shared/assets/article-bath-accessories.png"
+
+
+
 
 const articles = [
   {
-    image: "/src/shared/assets/article-bath-accessories.png",
+    image: accessories,
     title: "Актуальные и необычные аксессуары для ванной комнаты",
     category: "Идеи для дома",
     readTime: "4 минуты",
   },
   {
-    image: "/src/shared/assets/article-hot-water.png",
+    image: hot,
     title: "Какой температуры должна быть горячая вода?",
     category: "Советы эксперта",
     readTime: "5 минут",
   },
   {
-    image: "/src/shared/assets/article-toilet-condensation.png",
+    image: toilet,
     title: "Конденсат на бачке унитаза: причины появления и способы устранения",
     category: "Полезные советы",
     readTime: "6 минут",
   },
   {
-    image: "/src/shared/assets/article-sealant.png",
+    image: sealant,
     title: "Анаэробный герметик для резьбовых соединений",
     category: "Материалы",
     readTime: "3 минуты",
@@ -93,7 +100,7 @@ export default function ArticlesAndSeo() {
         <div className="mt-16 grid overflow-hidden rounded-3xl bg-white shadow-xl shadow-slate-300/30 lg:grid-cols-[.95fr_1.05fr]">
           <div className="group relative min-h-[300px] overflow-hidden bg-slate-200">
             <img
-              src="/src/shared/assets/seo-kitchen.png"
+             src="src/shared/assets/seo-kitchen.png"
               alt="Современный интерьер кухни"
               loading="lazy"
               className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
@@ -102,9 +109,7 @@ export default function ArticlesAndSeo() {
                 event.currentTarget.nextElementSibling.style.display = "flex";
               }}
             />
-            <div className="absolute inset-0 hidden items-center justify-center bg-gradient-to-br from-slate-200 to-cyan-100 p-8 text-center text-sm font-semibold text-slate-500">
-              Добавьте широкое фото интерьера
-            </div>
+        
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/70 to-transparent p-6 pt-20 text-white">
               <p className="text-xs font-semibold uppercase tracking-[.2em] text-cyan-200">
                 Пространство для вдохновения

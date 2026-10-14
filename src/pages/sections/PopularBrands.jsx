@@ -1,24 +1,34 @@
+import geberit from "../../shared/assets/brand-geberit.png";
+import grohe from "../../shared/assets/brand-grohe.png";
+import stworki from "../../shared/assets/brand-stworki.png";
+import ampm from "../../shared/assets/brand-ampm.png";
+import jacobDelafon from "../../shared/assets/brand-jacob-delafon.png";
+import cersanit from "../../shared/assets/brand-cersanit.png";
+import roca from "../../shared/assets/brand-roca.png";
+import vitra from "../../shared/assets/brand-vitra.png";
+import villeroyBoch from "../../shared/assets/brand-villeroy-boch.png";
 
 const brands = [
-  { name: "hansgrohe", image: "/src/shared/assets/brand-geberit.png" },
-  { name: "GROHE", image: "/src/shared/assets/brand-geberit.png" },
-  { name: "STWORKI", image: "/src/shared/assets/brand-stworki.png" },
-  { name: "AM.PM", image: "/src/shared/assets/brand-ampm.png" },
-  { name: "Jacob Delafon", image: "/src/shared/assets/brand-jacob-delafon.png" },
-  { name: "cersanit", image: "/src/shared/assets/brand-cersanit.png" },
-  { name: "GEBERIT", image: "/src/shared/assets/brand-geberit.png" },
-  { name: "Roca", image: "/src/shared/assets/brand-roca.png" },
-  { name: "VitrA", image: "/src/shared/assets/brand-vitra.png" },
-  { name: "Villeroy & Boch", image: "/src/shared/assets/brand-villeroy-boch.png" },
-  { name: "Ideal Standard", image: "/src/shared/assets/brand-villeroy-boch.png" },
-  { name: "AQUANIKA", image: "/src/shared/assets/brand-vitra.png" },
-  { name: "BENETTO", image: "/src/shared/assets/brand-geberit.png" },
-  { name: "COLOMBO", image: "/src/shared/assets/brand-ampm.png" },
-  { name: "dyson", image: "/src/shared/assets/brand-vitra.png" },
-  { name: "gorenje", image: "/src/shared/assets/brand-cersanit.png" },
-  { name: "JADO", image: "/src/shared/assets/brand-grohe.png" },
-  { name: "LVI", image: "/src/shared/assets/brand-grohe.png" },
+  { name: "hansgrohe", image: grohe },
+  { name: "GROHE", image: grohe },
+  { name: "STWORKI", image: stworki },
+  { name: "AM.PM", image: ampm },
+  { name: "Jacob Delafon", image: jacobDelafon },
+  { name: "cersanit", image: cersanit },
+  { name: "GEBERIT", image: geberit },
+  { name: "Roca", image: roca },
+  { name: "VitrA", image: vitra },
+  { name: "Villeroy & Boch", image: villeroyBoch },
+  { name: "Ideal Standard", image: villeroyBoch },
+  { name: "AQUANIKA", image: vitra },
+  { name: "BENETTO", image: geberit },
+  { name: "COLOMBO", image: ampm },
+  { name: "dyson", image: vitra },
+  { name: "gorenje", image: cersanit },
+  { name: "JADO", image: grohe },
+  { name: "LVI", image: grohe },
 ];
+
 
 export default function PopularBrands() {
   return (
