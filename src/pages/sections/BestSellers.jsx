@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import ProductCard from "../../shared/ui/productCard";
+import ProductCard from "../../shared/ui/ProductCard";
 import { ChevronIcon } from "../../shared/ui/icons";
 
 import sink from "../../shared/assets/sink.png";
