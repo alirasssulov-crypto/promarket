@@ -1,12 +1,13 @@
-import Header from "./widgets/header/Header.jsx";
-import Footer from "./widgets/footer/Footer.jsx";
+import Header from "./widgets/header/Header";
+import Footer from "./widgets/footer/Footer";
+import HomePage from "./pages/homepage/HomePage";
 
 export default function App() {
   return (
     <>
       <Header />
       <main className="min-h-[60vh]">
-        {/* сюда друг и ты будете добавлять секции */}
+        <HomePage />
       </main>
       <Footer />
     </>
